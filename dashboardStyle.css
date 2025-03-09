@@ -1,0 +1,120 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background: #4f46e5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.logout-btn {
+    background: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background: darkred;
+}
+
+/* Admin Navigation */
+.admin-tabs {
+    display: flex;
+    margin: 15px 0;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.tab-btn.active {
+    color: #fff;
+    border-bottom: 3px solid #2563eb;
+}
+
+/* Dashboard Cards */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+/* Data Table */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.data-table tr:hover {
+    background: rgba(255, 255, 255, 0.1);
+}

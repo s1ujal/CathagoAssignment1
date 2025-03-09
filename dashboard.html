@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Document Scanner</title>
+    <link rel="stylesheet" href="dashboardStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="user-info">
+                <div class="avatar" id="userAvatar">A</div>
+                <div class="user-details">
+                    <span class="username" id="username">Admin</span>
+                    <span class="user-email" id="userEmail">admin@email.com</span>
+                </div>
+            </div>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </header>
+
+        <!-- Admin Navigation Tabs -->
+        <div class="admin-tabs">
+            <button class="tab-btn active" data-tab="dashboard">Dashboard</button>
+            <button class="tab-btn" data-tab="credit-requests">Credit Requests</button>
+            <button class="tab-btn" data-tab="user-management">User Management</button>
+            <button class="tab-btn" data-tab="admin-management">Admin Management</button>
+        </div>
+
+        <!-- Dashboard Tab -->
+        <div id="dashboard" class="tab-content active">
+            <div class="cards-grid">
+                <div class="card stat-card">
+                    <span class="stat-value" id="totalUsers">10K</span>
+                    <span class="stat-label">Total Users</span>
+                </div>
+                <div class="card stat-card">
+                    <span class="stat-value" id="totalDocuments">1.2K</span>
+                    <span class="stat-label">Documents Scanned Today</span>
+                </div>
+                <div class="card stat-card">
+                    <span class="stat-value" id="pendingRequests">120</span>
+                    <span class="stat-label">Pending Requests</span>
+                </div>
+                <div class="card stat-card">
+                    <span class="stat-value" id="totalAdmins">15</span>
+                    <span class="stat-label">Total Admins</span>
+                </div>
+            </div>
+
+            <h2>Recent Activity</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Action</th>
+                        <th>Details</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody id="activityTable">
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Uploaded Document</td>
+                        <td>Invoice.pdf</td>
+                        <td>03:45 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Requested Credits</td>
+                        <td>+50 Credits</td>
+                        <td>02:30 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="dashboardScript.js"></script>
+</body>
+
+</html>
