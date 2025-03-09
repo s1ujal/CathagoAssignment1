@@ -38,4 +38,28 @@ npm install
 node server.js
 
 3️⃣ Run the Frontend
-Open login.html in VS Code and use the Live Server extension to preview.
+Open login.html in VS Code and use the Live Server extension to preview.  
+
+# There are some photo 
+
+
+
+
+🏗️ Tech Stack
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js, Express.js
+Database: SQLite
+Storage: File system for document management
+
+
+
+
+
+
+
+
+
+
+
+
+
