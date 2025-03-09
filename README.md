@@ -45,7 +45,19 @@ Open login.html in VS Code and use the Live Server extension to preview.
 
 
 
-🏗️ Tech Stack
+![Screenshot 2025-03-09 195800](https://github.com/user-attachments/assets/959644e6-520d-44dd-8f2e-23660f9f0589)
+
+
+![Screenshot 2025-03-09 195818](https://github.com/user-attachments/assets/b1001eca-e9b6-4f79-9bb6-70b26e7bd328)
+![Screenshot 2025-03-09 195818](https://github.com/user-attachments/assets/ec6dd6ec-4f04-413a-a8a6-919071731ab9)
+![Uploading Screenshot 2025-03-09 195818.png…]()
+
+
+🏗️ Tech Stack![Screenshot 2025-03-09 195800](https://github.com/user-attachments/assets/27340249-612b-4cce-9921-62820ab7b9d1)
+![Uploading Screenshot 2025-03-09 195800.png…]()
+![Screenshot 2025-03-09 195859](https://github.com/user-attachments/assets/b7ba5d5d-9f80-4a6b-95d4-76938c135ce4)
+![Screenshot 2025-03-09 195859](https://github.com/user-attachments/assets/4a3e8744-a51c-4373-bb89-225156c77865)
+
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: SQLite
