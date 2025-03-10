@@ -6,9 +6,10 @@ The Credit-Based Document Scanning System is a secure platform designed for docu
 This project demonstrates expertise in full-stack development, secure authentication, and efficient database management.
 
 🔥 Key Features
-🟢 User Features
-✅ Secure Login & Registration
-✅ Credit System:
+
+User Features
+Secure Login & Registration
+Credit System:
 
 Users receive 20 free credits every midnight.
 Each document scan costs 1 credit.
